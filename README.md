@@ -9,3 +9,4 @@ Tecnologías:
 - HTML
 - Css
 - JavaScript
+- ChatGPT
