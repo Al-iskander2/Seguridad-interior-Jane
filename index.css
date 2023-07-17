@@ -90,3 +90,9 @@ input[type='range']::-webkit-slider-thumb {
     outline: none;
     width: -webkit-fill-available;
 }
+
+.instrucciones {
+    background-color: yellow;
+    padding: 10px;
+    border-radius: var(--borde-redondo);
+}
