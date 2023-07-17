@@ -92,7 +92,7 @@ input[type='range']::-webkit-slider-thumb {
 }
 
 .instrucciones {
-    background-color: yellow;
+    background-color: #D1AA00;
     padding: 10px;
     border-radius: var(--borde-redondo);
 }
