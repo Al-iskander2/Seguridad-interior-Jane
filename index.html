@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seguridad-Interior-Jane</title>
+    <link href="index.css" rel="stylesheet" />
+    <script src="index.js" type="text/javascript" defer></script>
+    <style>
+        /* Estilos adicionales si es necesario */
+        #input-original {
+            /* Estilos del cuadro de entrada original */
+        }
+
+        #text-display {
+            background-color: var(--color-terminal);
+            color: white;
+            padding: 10px;
+            border-radius: var(--borde-redondo);
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Seguridad-interior-Jane.</h1>
+
+        <!-- Instrucciones -->
+        <div class="instrucciones">
+            <p>Instrucciones: Por 15 días, vas a repetir una frase durante todo el día.</p>
+            <p>Con este ejercicio, fortaleceras tu confianza interior
+        </div>
+
+        <div id="text-display" spellcheck="false" name="text"></div>
+        <div id="resultado"></div>
+        
+
+        <div class="mb-3">
+            <label class="form-label label-sm">Día:</label>
+            <div class="form-group">
+                <button class="btn btn-primary" type="button" Day="Día1" onclick="displayText('Despierto lo que hay en mí y en otros.')">Día 1</button>
+                <button class="btn btn-primary" type="button" Day="Día2" onclick="displayText('Irradio confianza desde dentro hacia fuera.')">Día 2</button>
+                <button class="btn btn-primary" type="button" Day="Día3" onclick="displayText('Mi valor va más allá de la apariencia.')">Día 3</button>
+                <button class="btn btn-primary" type="button" Day="Día4" onclick="displayText('Confío plenamente en mi capacidad para enfrentar desafíos.')">Día 4</button>
+                <button class="btn btn-primary" type="button" Day="Día6" onclick="displayText('¿Cómo puedo ayudar a alguien hoy?')">Día 5</button>
+                <button class="btn btn-primary" type="button" Day="Día7" onclick="displayText('Nunca estoy solo; siempre cuento conmigo.')">Día 6</button>
+                <button class="btn btn-primary" type="button" Day="Día10" onclick="displayText('Mi amor propio no depende de la aprobación externa.')">Día 7</button>
+                <button class="btn btn-primary" type="button" Day="Día11" onclick="displayText('Mi presencia inspira y motiva a otros.')">Día 8</button>
+                <button class="btn btn-primary" type="button" Day="Día13" onclick="displayText('Agradezco cada día y lo que aporto al mundo.')">Día 9</button>
+                <button class="btn btn-primary" type="button" Day="Día14" onclick="displayText('Soy valioso, y mi confianza se fortalece cada día.')">Día 10</button>
+                <button class="btn btn-primary" type="button" Day="Día15" onclick="displayText('Mantengo la fe en mí mismo; mi confianza es inquebrantable.')">Día 11</button>
+                <button class="btn btn-primary" type="button" Day="Día16" onclick="displayText('Despierto las fuerzas internas que duermen en mí.')">Día 12</button>
+                <button class="btn btn-primary" type="button" Day="Día17" onclick="displayText('Veo la luz que brilla en mis propios ojos.')">Día 13</button>
+                <button class="btn btn-primary" type="button" Day="Día18" onclick="displayText('La soledad no me detiene, elijo vivir plenamente.')">Día 14</button>
+                <button class="btn btn-primary" type="button" Day="Día20" onclick="displayText('Siembro amor donde haya odio, confianza donde haya temor.')">Día 15</button>
+            </div>
+        </div>
+    </main>
+
+    <script>
+        function displayText(text) {
+            const textDisplay = document.getElementById('text-display');
+            textDisplay.textContent = text;
+        }
+    </script>
+</body>
+</html>
